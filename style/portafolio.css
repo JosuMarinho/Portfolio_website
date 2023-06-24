@@ -1,0 +1,256 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+@import url('https://fonts.cdnfonts.com/css/roboto');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.google.com/specimen/Montserrat?preview.text=%0A&preview.layout=row&preview.text_type=custom&query=mont');
+@import url('https://fonts.cdnfonts.com/css/raleway-5'); 
+/* Estilos generales */
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 10px;
+  max-width: 1300px;
+  margin: 0 auto;
+  
+}
+
+main {
+  margin: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Encabezado */
+header {
+  font-family: 'Roboto Light', sans-serif;
+  background-color: #52adc8;
+  color: #fff;
+  padding: 20px;
+  
+}
+
+header h1 {
+  font-family: 'Roboto Black', sans-serif;
+  margin: 0;
+  font-size: 40px;
+  display: inline-block;
+  align-items: right;
+}
+
+header img {
+  height: 70px;
+  margin-right: 25px;
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: #666;
+}
+
+/* Imagen destacada */
+.featured-image {
+  text-align: center;
+}
+
+.featured-image img {
+  max-width: 100%;
+  height:auto;
+}
+
+/* Iconos de URL */
+.icon-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.icon-list li:last-child {
+  margin-right: 0;
+}
+
+.icon-list a {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.25em; /* responsive font size */
+  padding: 5px;
+}
+
+.icon-list a:hover {
+  color: #666;
+  background-color: #f5f5f5;
+}
+
+/* Secciones */
+section {
+   
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+}
+#presentation {
+  font-family: 'Roboto Light', sans-serif; 
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #7c969f;
+  color:#fff;
+}
+
+section h2 {
+  margin-top: 0;
+  font-size: 24px;
+  text-align: justify;
+}
+
+section p {
+  margin: 0;
+  padding: 0 35;
+  text-align: justify;
+}
+
+section ul {
+  margin: 0;
+  padding: 20; 
+
+}
+article p {
+  padding: 20px;
+  margin:  0;
+  text-align: justify;
+}
+article img {
+  padding: 20px;
+  margin:  0;  
+  max-width: 100%;
+  height:auto; 
+  display: inline-block;
+  
+}
+
+section li {
+  margin-bottom: 10px;
+  text-indent: 1%;
+}
+
+/* Pie de página */
+footer {
+  background-color: #52adc8;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  margin-bottom: 10px;
+}
+
+.project-image {
+  margin-bottom: 10px;
+}
+
+.project-description {
+  margin-bottom: 20px;
+}
+
+.project img {
+  max-width: 100%; /* use max-width instead of fixed width */
+  height: auto; /* maintain aspect ratio */
+  margin: 30px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+ aside {
+  border-right: 1px solid #999;
+}
+
+#Aboutme {
+    overflow: hidden; 
+    }
+
+  #Aboutme img {
+    float: right;
+    width: 30%;
+    max-width: 30%;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  #Aboutme p {
+    float: left;
+    width: 65%;
+  }
+
+  .resumeimage1 {
+    float: right;
+    width: auto;
+    max-width: 66%;
+  }
+ .project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: auto; 
+    margin: 50px 0;
+  }
+  
+  .project img {
+    float:left;
+    max-width: 47%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .project p {
+    float: right;
+    max-width: 47%;
+    font-size: 18px;
+  }
