@@ -30,7 +30,7 @@ header {
 /* Encabezado */
 header {
   font-family: 'Roboto Light', sans-serif;
-  background-color: #52adc8;
+  background-color: #Be5e25;
   color: #fff;
   padding: 20px;
   
@@ -169,7 +169,7 @@ section li {
 
 /* Pie de página */
 footer {
-  background-color: #52adc8;
+  background-color: #be5e25;
   color: #fff;
   text-align: center;
   padding: 10px;
